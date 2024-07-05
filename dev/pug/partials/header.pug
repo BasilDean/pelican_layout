@@ -1,1 +1,32 @@
 noscript.noscript Чтобы посмотреть сайт включите JavaScript на&nbsp;своём устройстве.
+
+header.siteHeader
+    .siteHeader__wrapper
+        .siteHeader__line
+            .siteHeader__phone.headerPhone
+                .headerPhone__pic
+                    +icon('phone')
+                .headerPhone__content
+                    .headerPhone__number=phone
+                    .headerPhone__callback Заказать звонок
+            .siteHeader__logo
+                +icon('logo')
+            .siteHeader__search
+                form
+                    input(name="q" type="text" placeholder="Поиск по сайту")
+                    button(type="submit")
+                        +icon('search')
+            .siteHeader__icons
+                .siteHeader__icon.siteHeader__featured
+                    +icon('saved')
+                .siteHeader__icon.siteHeader__cart
+                    +icon('cart')
+                .siteHeader__icon.siteHeader__personal
+                    +icon('user')
+        .siteHeader__line
+            nav.siteHeader__nav
+                - var menu = ['Продукция', 'Скидки', 'Статьи', 'О нас', 'Доставка и оплата', 'Возврат и обмен', 'Контакты']
+                ul
+                    each item in menu
+                        li
+                            a(href="#")=item
