@@ -1,0 +1,68 @@
+{
+  "name": "layout_template",
+  "version": "1.0.0",
+  "description": "template for making layouts in the most convinient way",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BasilDean/layout_template.git"
+  },
+  "keywords": [
+    "layout",
+    "pug",
+    "stylus",
+    "jquery"
+  ],
+  "author": "Vasilii Duvanov (Basil Dandelion)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BasilDean/layout_template/issues"
+  },
+  "homepage": "https://github.com/BasilDean/layout_template#readme",
+  "devDependencies": {
+    "@babel/core": "^7.24.7",
+    "@babel/preset-env": "^7.24.7",
+    "autoprefixer": "^10.4.19",
+    "babel-loader": "^9.1.3",
+    "browser-sync": "^3.0.2",
+    "gulp": "^5.0.0",
+    "gulp-autoprefixer": "^9.0.0",
+    "gulp-browserify": "^0.5.1",
+    "gulp-clean": "^0.4.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-cssimport": "^7.0.0",
+    "gulp-data": "^1.3.1",
+    "gulp-eslint": "^6.0.0",
+    "gulp-group-css-media-queries": "^1.2.2",
+    "gulp-html-prettify": "^0.0.1",
+    "gulp-if": "^3.0.0",
+    "gulp-notify": "^4.0.0",
+    "gulp-postcss": "^10.0.0",
+    "gulp-pug": "^5.0.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-stylint": "^4.0.2",
+    "gulp-stylus": "^3.0.1",
+    "gulp-svg-sprite-plus": "^1.1.2",
+    "gulp-uglify": "^3.0.2",
+    "stylus": "^0.63.0",
+    "vinyl-source-stream": "^2.0.0",
+    "webpack-stream": "^7.0.0"
+  },
+  "dependencies": {
+    "jquery": "^3.7.1",
+    "lodash": "^4.17.21",
+    "swiper": "^11.1.4"
+  },
+  "browsers": {
+    "android": 4,
+    "chrome": 80,
+    "firefox": 84,
+    "ie": 11,
+    "ios": 6,
+    "opera": 70,
+    "safari": 10
+  }
+}
